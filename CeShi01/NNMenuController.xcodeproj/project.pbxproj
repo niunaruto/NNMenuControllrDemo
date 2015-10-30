@@ -15,6 +15,7 @@
 		4E80D9D91BE339350063FAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E80D9D71BE339350063FAD9 /* LaunchScreen.storyboard */; };
 		4E80D9E41BE339350063FAD9 /* CeShi01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D9E31BE339350063FAD9 /* CeShi01Tests.m */; };
 		4E80D9EF1BE339350063FAD9 /* CeShi01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D9EE1BE339350063FAD9 /* CeShi01UITests.m */; };
+		4E80D9FE1BE33B1A0063FAD9 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D9FD1BE33B1A0063FAD9 /* MyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E80D9C61BE339350063FAD9 /* CeShi01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeShi01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E80D9C61BE339350063FAD9 /* NNMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E80D9CA1BE339350063FAD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E80D9CC1BE339350063FAD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E80D9CD1BE339350063FAD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +46,14 @@
 		4E80D9D51BE339350063FAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E80D9D81BE339350063FAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E80D9DA1BE339350063FAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E80D9DF1BE339350063FAD9 /* CeShi01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeShi01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E80D9DF1BE339350063FAD9 /* NNMenuController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNMenuController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E80D9E31BE339350063FAD9 /* CeShi01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeShi01Tests.m; sourceTree = "<group>"; };
 		4E80D9E51BE339350063FAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E80D9EA1BE339350063FAD9 /* CeShi01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeShi01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E80D9EA1BE339350063FAD9 /* NNMenuController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNMenuController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E80D9EE1BE339350063FAD9 /* CeShi01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeShi01UITests.m; sourceTree = "<group>"; };
 		4E80D9F01BE339350063FAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E80D9FC1BE33B1A0063FAD9 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		4E80D9FD1BE33B1A0063FAD9 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +84,7 @@
 		4E80D9BD1BE339350063FAD9 = {
 			isa = PBXGroup;
 			children = (
-				4E80D9C81BE339350063FAD9 /* CeShi01 */,
+				4E80D9C81BE339350063FAD9 /* NNMenuController */,
 				4E80D9E21BE339350063FAD9 /* CeShi01Tests */,
 				4E80D9ED1BE339350063FAD9 /* CeShi01UITests */,
 				4E80D9C71BE339350063FAD9 /* Products */,
@@ -91,26 +94,29 @@
 		4E80D9C71BE339350063FAD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E80D9C61BE339350063FAD9 /* CeShi01.app */,
-				4E80D9DF1BE339350063FAD9 /* CeShi01Tests.xctest */,
-				4E80D9EA1BE339350063FAD9 /* CeShi01UITests.xctest */,
+				4E80D9C61BE339350063FAD9 /* NNMenuController.app */,
+				4E80D9DF1BE339350063FAD9 /* NNMenuController.xctest */,
+				4E80D9EA1BE339350063FAD9 /* NNMenuController.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E80D9C81BE339350063FAD9 /* CeShi01 */ = {
+		4E80D9C81BE339350063FAD9 /* NNMenuController */ = {
 			isa = PBXGroup;
 			children = (
 				4E80D9CC1BE339350063FAD9 /* AppDelegate.h */,
 				4E80D9CD1BE339350063FAD9 /* AppDelegate.m */,
 				4E80D9CF1BE339350063FAD9 /* ViewController.h */,
 				4E80D9D01BE339350063FAD9 /* ViewController.m */,
+				4E80D9FC1BE33B1A0063FAD9 /* MyTableViewCell.h */,
+				4E80D9FD1BE33B1A0063FAD9 /* MyTableViewCell.m */,
 				4E80D9D21BE339350063FAD9 /* Main.storyboard */,
 				4E80D9D51BE339350063FAD9 /* Assets.xcassets */,
 				4E80D9D71BE339350063FAD9 /* LaunchScreen.storyboard */,
 				4E80D9DA1BE339350063FAD9 /* Info.plist */,
 				4E80D9C91BE339350063FAD9 /* Supporting Files */,
 			);
+			name = NNMenuController;
 			path = CeShi01;
 			sourceTree = "<group>";
 		};
@@ -143,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E80D9C51BE339350063FAD9 /* CeShi01 */ = {
+		4E80D9C51BE339350063FAD9 /* NNMenuController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E80D9F31BE339350063FAD9 /* Build configuration list for PBXNativeTarget "CeShi01" */;
+			buildConfigurationList = 4E80D9F31BE339350063FAD9 /* Build configuration list for PBXNativeTarget "NNMenuController" */;
 			buildPhases = (
 				4E80D9C21BE339350063FAD9 /* Sources */,
 				4E80D9C31BE339350063FAD9 /* Frameworks */,
@@ -155,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = CeShi01;
+			name = NNMenuController;
 			productName = CeShi01;
-			productReference = 4E80D9C61BE339350063FAD9 /* CeShi01.app */;
+			productReference = 4E80D9C61BE339350063FAD9 /* NNMenuController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E80D9DE1BE339350063FAD9 /* CeShi01Tests */ = {
+		4E80D9DE1BE339350063FAD9 /* NNMenuControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E80D9F61BE339350063FAD9 /* Build configuration list for PBXNativeTarget "CeShi01Tests" */;
+			buildConfigurationList = 4E80D9F61BE339350063FAD9 /* Build configuration list for PBXNativeTarget "NNMenuControllerTests" */;
 			buildPhases = (
 				4E80D9DB1BE339350063FAD9 /* Sources */,
 				4E80D9DC1BE339350063FAD9 /* Frameworks */,
@@ -173,14 +179,14 @@
 			dependencies = (
 				4E80D9E11BE339350063FAD9 /* PBXTargetDependency */,
 			);
-			name = CeShi01Tests;
+			name = NNMenuControllerTests;
 			productName = CeShi01Tests;
-			productReference = 4E80D9DF1BE339350063FAD9 /* CeShi01Tests.xctest */;
+			productReference = 4E80D9DF1BE339350063FAD9 /* NNMenuController.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4E80D9E91BE339350063FAD9 /* CeShi01UITests */ = {
+		4E80D9E91BE339350063FAD9 /* NNMenuControllerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E80D9F91BE339350063FAD9 /* Build configuration list for PBXNativeTarget "CeShi01UITests" */;
+			buildConfigurationList = 4E80D9F91BE339350063FAD9 /* Build configuration list for PBXNativeTarget "NNMenuControllerUITests" */;
 			buildPhases = (
 				4E80D9E61BE339350063FAD9 /* Sources */,
 				4E80D9E71BE339350063FAD9 /* Frameworks */,
@@ -191,9 +197,9 @@
 			dependencies = (
 				4E80D9EC1BE339350063FAD9 /* PBXTargetDependency */,
 			);
-			name = CeShi01UITests;
+			name = NNMenuControllerUITests;
 			productName = CeShi01UITests;
-			productReference = 4E80D9EA1BE339350063FAD9 /* CeShi01UITests.xctest */;
+			productReference = 4E80D9EA1BE339350063FAD9 /* NNMenuController.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4E80D9C11BE339350063FAD9 /* Build configuration list for PBXProject "CeShi01" */;
+			buildConfigurationList = 4E80D9C11BE339350063FAD9 /* Build configuration list for PBXProject "NNMenuController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E80D9C51BE339350063FAD9 /* CeShi01 */,
-				4E80D9DE1BE339350063FAD9 /* CeShi01Tests */,
-				4E80D9E91BE339350063FAD9 /* CeShi01UITests */,
+				4E80D9C51BE339350063FAD9 /* NNMenuController */,
+				4E80D9DE1BE339350063FAD9 /* NNMenuControllerTests */,
+				4E80D9E91BE339350063FAD9 /* NNMenuControllerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E80D9D11BE339350063FAD9 /* ViewController.m in Sources */,
+				4E80D9FE1BE33B1A0063FAD9 /* MyTableViewCell.m in Sources */,
 				4E80D9CE1BE339350063FAD9 /* AppDelegate.m in Sources */,
 				4E80D9CB1BE339350063FAD9 /* main.m in Sources */,
 			);
@@ -300,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		4E80D9E11BE339350063FAD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E80D9C51BE339350063FAD9 /* CeShi01 */;
+			target = 4E80D9C51BE339350063FAD9 /* NNMenuController */;
 			targetProxy = 4E80D9E01BE339350063FAD9 /* PBXContainerItemProxy */;
 		};
 		4E80D9EC1BE339350063FAD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E80D9C51BE339350063FAD9 /* CeShi01 */;
+			target = 4E80D9C51BE339350063FAD9 /* NNMenuController */;
 			targetProxy = 4E80D9EB1BE339350063FAD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,7 +424,7 @@
 				INFOPLIST_FILE = CeShi01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.CeShi01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NNMenuController;
 			};
 			name = Debug;
 		};
@@ -428,7 +435,7 @@
 				INFOPLIST_FILE = CeShi01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.CeShi01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NNMenuController;
 			};
 			name = Release;
 		};
@@ -439,8 +446,8 @@
 				INFOPLIST_FILE = CeShi01Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.CeShi01Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeShi01.app/CeShi01";
+				PRODUCT_NAME = NNMenuController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNMenuController.app/NNMenuController";
 			};
 			name = Debug;
 		};
@@ -451,8 +458,8 @@
 				INFOPLIST_FILE = CeShi01Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.CeShi01Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeShi01.app/CeShi01";
+				PRODUCT_NAME = NNMenuController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNMenuController.app/NNMenuController";
 			};
 			name = Release;
 		};
@@ -462,7 +469,7 @@
 				INFOPLIST_FILE = CeShi01UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.CeShi01UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NNMenuController;
 				TEST_TARGET_NAME = CeShi01;
 				USES_XCTRUNNER = YES;
 			};
@@ -474,7 +481,7 @@
 				INFOPLIST_FILE = CeShi01UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.CeShi01UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NNMenuController;
 				TEST_TARGET_NAME = CeShi01;
 				USES_XCTRUNNER = YES;
 			};
@@ -483,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E80D9C11BE339350063FAD9 /* Build configuration list for PBXProject "CeShi01" */ = {
+		4E80D9C11BE339350063FAD9 /* Build configuration list for PBXProject "NNMenuController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E80D9F11BE339350063FAD9 /* Debug */,
@@ -492,29 +499,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E80D9F31BE339350063FAD9 /* Build configuration list for PBXNativeTarget "CeShi01" */ = {
+		4E80D9F31BE339350063FAD9 /* Build configuration list for PBXNativeTarget "NNMenuController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E80D9F41BE339350063FAD9 /* Debug */,
 				4E80D9F51BE339350063FAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4E80D9F61BE339350063FAD9 /* Build configuration list for PBXNativeTarget "CeShi01Tests" */ = {
+		4E80D9F61BE339350063FAD9 /* Build configuration list for PBXNativeTarget "NNMenuControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E80D9F71BE339350063FAD9 /* Debug */,
 				4E80D9F81BE339350063FAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4E80D9F91BE339350063FAD9 /* Build configuration list for PBXNativeTarget "CeShi01UITests" */ = {
+		4E80D9F91BE339350063FAD9 /* Build configuration list for PBXNativeTarget "NNMenuControllerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E80D9FA1BE339350063FAD9 /* Debug */,
 				4E80D9FB1BE339350063FAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

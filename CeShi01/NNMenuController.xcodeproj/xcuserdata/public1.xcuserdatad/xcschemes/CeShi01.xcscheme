@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E80D9C51BE339350063FAD9"
-               BuildableName = "CeShi01.app"
-               BlueprintName = "CeShi01"
-               ReferencedContainer = "container:CeShi01.xcodeproj">
+               BuildableName = "NNMenuController.app"
+               BlueprintName = "NNMenuController"
+               ReferencedContainer = "container:NNMenuController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E80D9DE1BE339350063FAD9"
-               BuildableName = "CeShi01Tests.xctest"
-               BlueprintName = "CeShi01Tests"
-               ReferencedContainer = "container:CeShi01.xcodeproj">
+               BuildableName = "NNMenuController.xctest"
+               BlueprintName = "NNMenuControllerTests"
+               ReferencedContainer = "container:NNMenuController.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E80D9E91BE339350063FAD9"
-               BuildableName = "CeShi01UITests.xctest"
-               BlueprintName = "CeShi01UITests"
-               ReferencedContainer = "container:CeShi01.xcodeproj">
+               BuildableName = "NNMenuController.xctest"
+               BlueprintName = "NNMenuControllerUITests"
+               ReferencedContainer = "container:NNMenuController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E80D9C51BE339350063FAD9"
-            BuildableName = "CeShi01.app"
-            BlueprintName = "CeShi01"
-            ReferencedContainer = "container:CeShi01.xcodeproj">
+            BuildableName = "NNMenuController.app"
+            BlueprintName = "NNMenuController"
+            ReferencedContainer = "container:NNMenuController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E80D9C51BE339350063FAD9"
-            BuildableName = "CeShi01.app"
-            BlueprintName = "CeShi01"
-            ReferencedContainer = "container:CeShi01.xcodeproj">
+            BuildableName = "NNMenuController.app"
+            BlueprintName = "NNMenuController"
+            ReferencedContainer = "container:NNMenuController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E80D9C51BE339350063FAD9"
-            BuildableName = "CeShi01.app"
-            BlueprintName = "CeShi01"
-            ReferencedContainer = "container:CeShi01.xcodeproj">
+            BuildableName = "NNMenuController.app"
+            BlueprintName = "NNMenuController"
+            ReferencedContainer = "container:NNMenuController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
