@@ -14,5 +14,6 @@ typedef void (^LongPressBlock)();
 
 @end
 @interface MyTableViewCell : UITableViewCell
+@property (nonatomic, strong) UILabel *stringLabel;
 @property (nonatomic, assign) id<longPressDelegate> delegate;
 @end

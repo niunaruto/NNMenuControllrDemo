@@ -35,7 +35,7 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    
+    cell.stringLabel.text  = [NSString stringWithFormat:@"QQ群:390438081 ==== %ld",indexPath.row];
     cell.delegate = self;
     return cell;
 }
@@ -67,6 +67,7 @@
 
 - (void)deleItemClicked:(UIMenuItem *)menu{
     NSLog(@"点击了删除按钮");
+    
 }
 - (void)buyItemClicked:(UIMenuItem *)menu{
     

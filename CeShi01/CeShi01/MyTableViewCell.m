@@ -26,12 +26,11 @@
     self  = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 300, 40)];
+        _stringLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 400, 40)];
         UILongPressGestureRecognizer *longp = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longP:)];
         [self addGestureRecognizer:longp];
         
-        label.text = @"QQ群:390438081";
-        [self addSubview:label];
+        [self addSubview:_stringLabel];
     }
     return self;
 }
