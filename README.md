@@ -1,2 +1,2 @@
-# NNMenuControllrDome
-一个UIMenuController的dome
+# NNMenuControllrDemo
+一个UIMenuController的demo
